@@ -78,6 +78,18 @@ h5 {
   font-size: 1.1rem;
 }
 
+h3 {
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+h4 {
+  color: var(--color-light);
+  padding: 0 2rem;
+  font-weight: 300;
+}
+
 h2 {
   color: var(--color-white);
   font-weight: 400;
@@ -103,6 +115,7 @@ a:hover {
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
+  font-size: 1rem;
 }
 
 .btn:hover {
@@ -134,10 +147,6 @@ img {
 
   .btn {
     padding: 0.5rem 1rem;
-  }
-
-  h5 {
-    margin-bottom: 0.5rem;
   }
 }
 

@@ -87,6 +87,42 @@ small {
   font-size: 1.2rem;
 }
 
+/* ============== MEDIA QUERIES (EXTRA-LARGE DEVICES) =============== */
+
+@media screen and (max-width: 2000px) {
+  #about {
+    height: 90vh;
+  }
+
+  .about__me {
+    height: 63.5%;
+  }
+
+  .about__text {
+    font-size: 1.1rem;
+  }
+}
+
+/* ============== MEDIA QUERIES (LARGE DEVICES) =============== */
+
+@media screen and (max-width: 1600px) {
+  #about {
+    height: 120vh;
+  }
+
+  .about__me {
+    height: 43%;
+  }
+
+  .container.about__container {
+    width: 90%;
+  }
+
+  .about__text {
+    font-size: 1rem;
+  }
+}
+
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) =============== */
 @media screen and (max-width: 1024px) {
   #about {
