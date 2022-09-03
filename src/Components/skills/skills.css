@@ -134,11 +134,59 @@
   margin: 3rem 0 4rem;
 }
 
+/* ============== MEDIA QUERIES (EXTRA-LARGE DEVICES) =============== */
+
+@media screen and (max-width: 2000px) {
+  #skills {
+    background-position-y: -45rem;
+  }
+
+  .skills__container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+
+  .skills__item {
+    margin: 1.5rem auto;
+    height: 10rem;
+    width: 17.5rem;
+    padding: 2.2rem;
+  }
+
+  .skills__item img {
+    width: 5.5rem;
+  }
+}
+
+/* ============== MEDIA QUERIES (LARGE DEVICES) =============== */
+
+@media screen and (max-width: 1600px) {
+  #skills {
+    background-position-y: -54.4rem;
+  }
+
+  .skills__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .skills__item {
+    margin: 1.5rem auto;
+    height: 8.5rem;
+    width: 15rem;
+    padding: 1.9rem;
+  }
+
+  .skills__item img {
+    width: 4.5rem;
+  }
+}
+
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 
 @media screen and (max-width: 1024px) {
   #skills {
-    background-position-y: -78rem;
+    background-position-y: -65rem;
   }
 
   .skills__container {
