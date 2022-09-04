@@ -37,31 +37,32 @@ const About = () => {
             <article className="about__card">
               <BsFileEarmarkPerson className="about__icon" />
               <h5>Previous Role</h5>
-              <small>WordPress Developer</small>
+              <small>WordPress Developer @ Fellow</small>
             </article>
           </div>
 
           <p className="about__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            purus, bibendum quis finibus in, vehicula ac neque. Interdum et
-            malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Nunc nisl purus, bibendum
-            quis finibus in, vehicula ac neque. Interdum et malesuada fames ac
-            ante ipsum primis in faucibus.
+            Hi, My name is Aimée and I currently reside in Regina, Saskatchewan.
+            I graduated from BCIT's New Media Design and Web Development diploma
+            program August, 2021. When I am not coding or designing, you can
+            find me at the gym working out, travelling, singing, or playing
+            video games.
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            purus, bibendum quis finibus in, vehicula ac neque. Interdum et
-            malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Nunc nisl purus, bibendum
-            quis finibus in, vehicula ac neque. Interdum et malesuada fames ac
-            ante ipsum primis in faucibus.
+            Within the last year, I have learned so much working at Fellow.
+            Throughout my time with the company, I utilized PHP, JavaScript,
+            SASS, HTML, TypeScript, WordPress, and React daily. In my
+            day-to-day, I was developing custom pages, Gutenberg blocks, and
+            altering existing code. I had the great experience of being the
+            marketing site's sole developer at Fellow. Because of this, my
+            communication and organization skills greatly improved. It allowed
+            me to build a solid foundation for my development process and
+            enhanced my problem-solving skills.
             <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            purus, bibendum quis finibus in, vehicula ac neque. Interdum et
-            malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit.
+            <br />I specialize in creating new websites and remediating existing
+            ones. Using WordPress, HTML5, CSS3, JavaScript, PHP, and other web
+            technologies such as React, I create positive and engaging
+            experiences for users.
           </p>
         </div>
       </div>

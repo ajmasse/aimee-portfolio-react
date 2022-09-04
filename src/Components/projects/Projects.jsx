@@ -16,7 +16,7 @@ const data = [
     description:
       "A meeting cost calculator tool for users to understand how much money they are spending daily, weekly, annually. *Owned by Fellow* ",
     view: "https://fellow.app/tools/meeting-cost-calculator/",
-    more: "",
+    // more: "",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const data = [
     description:
       "A custom coded WordPress archive and taxonomy page used to display the integrations all included with Fellow. *Owned by Fellow* ",
     view: "https://fellow.app/integrations/",
-    more: "",
+    // more: "",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const data = [
     description:
       "A custom coded WordPress archive and taxonomy page used to display Fellow's customer case studies. *Owned by Fellow* ",
     view: "https://fellow.app/integrations/",
-    more: "",
+    // more: "",
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const data = [
     title: "Trivia",
     description: "A trivia web app coded utilizing JavaScript, HTML, and CSS. ",
     view: "http://trivia.aimeemasse.ca/triviagame.html",
-    more: "",
+    // more: "",
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const data = [
     description:
       "Unitia is a volunteer abroad agency site. A landing page coded utilizing Bootstrap, HTML, and CSS.  ",
     view: "http://unitia.aimeemasse.ca/",
-    more: "",
+    // more: "",
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ const data = [
     description:
       "The Figma design for Spothot's marketing site - No live preview as company has since shut down",
     view: "",
-    more: "",
+    // more: "",
   },
 ];
 
@@ -85,11 +85,11 @@ export const Projects = () => {
               <h3>{title}</h3>
               <h4>{description}</h4>
               <div className="project__item-cta">
-                <a href={view} className="btn">
+                {/* <a href={view} className="btn">
                   Preview
-                </a>
-                <a href={more} className="btn btn-primary">
-                  Learn More
+                </a> */}
+                <a href={view} className="btn btn-primary">
+                  Preview
                 </a>
               </div>
             </article>
