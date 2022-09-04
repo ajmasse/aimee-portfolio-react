@@ -24,6 +24,15 @@
   color: var(--color-white);
 }
 
+.contact__option h5 {
+  color: var(--color-light);
+  font-size: 1rem;
+}
+
+.contact__option svg {
+  font-size: 1.75rem;
+}
+
 .contact__option:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
