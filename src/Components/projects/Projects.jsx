@@ -4,8 +4,8 @@ import "./projects.css";
 import Proj1 from "../../assets/meeting-cost-calculator.jpg";
 import Proj2 from "../../assets/integrations.jpg";
 import Proj3 from "../../assets/case-study.jpg";
-import Proj4 from "../../assets/trivia.jpg";
-import Proj5 from "../../assets/unitia-site.jpg";
+import Proj4 from "../../assets/comparison-table.jpg";
+import Proj5 from "../../assets/trivia.jpg";
 import Proj6 from "../../assets/spothot-design.jpg";
 
 const data = [
@@ -14,7 +14,7 @@ const data = [
     image: Proj1,
     title: "Meeting Cost Calculator",
     description:
-      "A meeting cost calculator tool for users to understand how much money they are spending daily, weekly, annually. *Owned by Fellow* ",
+      "A meeting cost calculator tool for users to understand how much money they are spending daily, weekly, annually. *Owned by Fellow*",
     view: "https://fellow.app/tools/meeting-cost-calculator/",
     // more: "",
   },
@@ -23,7 +23,7 @@ const data = [
     image: Proj2,
     title: "Integrations Page",
     description:
-      "A custom coded WordPress archive and taxonomy page used to display the integrations all included with Fellow. *Owned by Fellow* ",
+      "A custom coded WordPress archive and taxonomy page used to display the integrations all included with Fellow. *Owned by Fellow*",
     view: "https://fellow.app/integrations/",
     // more: "",
   },
@@ -32,25 +32,26 @@ const data = [
     image: Proj3,
     title: "Case Study Page",
     description:
-      "A custom coded WordPress archive and taxonomy page used to display Fellow's customer case studies. *Owned by Fellow* ",
-    view: "https://fellow.app/integrations/",
+      "A custom coded WordPress archive and taxonomy page used to display Fellow's customer case studies. *Owned by Fellow*",
+    view: "https://fellow.app/customers/",
     // more: "",
   },
   {
     id: 4,
     image: Proj4,
-    title: "Trivia",
-    description: "A trivia web app coded utilizing JavaScript, HTML, and CSS. ",
-    view: "http://trivia.aimeemasse.ca/triviagame.html",
+    title: "Comparison Table Block",
+    description:
+      "A Gutenberg block created for reusability through comparison pages. Developed utilizing JavaScript, React, and Sass. *Owned by Fellow*",
+    view: "https://fellow.app/compare/fellow-vs-google-docs/",
     // more: "",
   },
   {
-    id: 5,
+    id: 4,
     image: Proj5,
-    title: "Unitia Site",
+    title: "Trivia",
     description:
-      "Unitia is a volunteer abroad agency site. A landing page coded utilizing Bootstrap, HTML, and CSS.  ",
-    view: "http://unitia.aimeemasse.ca/",
+      "A trivia web application coded utilizing JavaScript, HTML, and CSS.",
+    view: "http://trivia.aimeemasse.ca/triviagame.html",
     // more: "",
   },
   {
@@ -58,8 +59,8 @@ const data = [
     image: Proj6,
     title: "Spothot Site Design",
     description:
-      "The Figma design for Spothot's marketing site - No live preview as company has since shut down",
-    view: "",
+      "The Figma design for Spothot's marketing site - No live preview as company has since shut down.",
+    view: "https://www.figma.com/file/E3IfOZQrwxiCinMOFMyNTN/Spothot?node-id=0%3A1",
     // more: "",
   },
 ];
