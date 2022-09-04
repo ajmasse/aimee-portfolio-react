@@ -16,11 +16,13 @@ const Header = () => {
             <span className="color-primary"> Aimée Massé</span>
             <span className="tag"> &lt;/h1&gt;</span>
           </h1>
-          <p className="indent">
-            <span className="tag">&lt;p&gt; </span>Front End Developer &amp;
-            Designer
-            <span className="tag"> &lt;/p&gt;</span>
-          </p>
+          <div className="typewriter">
+            <p className="indent">
+              <span className="tag">&lt;p&gt; </span>Front End Developer &amp;
+              Designer
+              <span className="tag"> &lt;/p&gt;</span>
+            </p>
+          </div>
           <CTA />
           <h5 className="tag">&lt;/header&gt;</h5>
         </div>

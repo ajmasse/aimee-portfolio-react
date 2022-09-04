@@ -1,5 +1,5 @@
 nav {
-  background: #16161662;
+  background: #070707a9;
   max-width: fit-content;
   display: block;
   padding: 0.7rem 1.7rem;
@@ -7,7 +7,7 @@ nav {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 2.5rem;
+  bottom: 3rem;
   display: flex;
   gap: 0.8rem;
   border-radius: 1rem;
@@ -38,23 +38,24 @@ nav a.active {
 }
 
 /* ============== MEDIA QUERIES (LARGE DEVICES) =============== */
-nav {
-  bottom: 1.5rem;
-}
 
 @media screen and (max-width: 1600px) {
-  /* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+  nav {
+    bottom: 1.5rem;
+  }
+}
 
-  @media screen and (max-width: 1024px) {
-    nav {
-      gap: 0.25rem;
-    }
-    nav a {
-      font-size: 0.9rem;
-    }
-    nav a svg {
-      margin-top: 0.15rem;
-    }
+/* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+
+@media screen and (max-width: 1024px) {
+  nav {
+    gap: 0.25rem;
+  }
+  nav a {
+    font-size: 0.9rem;
+  }
+  nav a svg {
+    margin-top: 0.15rem;
   }
 }
 
