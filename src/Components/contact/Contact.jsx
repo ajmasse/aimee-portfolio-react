@@ -12,7 +12,7 @@ export const Contact = () => {
 
     emailjs.sendForm(
       "service_p5dgcgr",
-      "service_p5dgcgr",
+      "template_2dkm7ky",
       form.current,
       "hRoZQBRNqMRSYanTW"
     );
@@ -20,7 +20,7 @@ export const Contact = () => {
     e.target.reset();
   };
   return (
-    <section id="#contact">
+    <section id="contact">
       <div className="contact__header">
         <h5>Get in Touch</h5>
         <h2>
