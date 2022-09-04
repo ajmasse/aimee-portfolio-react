@@ -166,6 +166,10 @@ img {
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 
 @media screen and (max-width: 1024px) {
+  .cursor {
+    display: none;
+  }
+
   .container {
     width: var(--container-width-md);
   }
@@ -182,6 +186,14 @@ img {
 /* ============== MEDIA QUERIES (SMALL DEVICES) =============== */
 
 @media screen and (max-width: 600px) {
+  #root {
+    overflow: hidden;
+  }
+
+  .cursor {
+    display: none;
+  }
+
   .container {
     width: var(--container-width-sm);
   }

@@ -3,10 +3,12 @@ import "./header.css";
 import CTA from "./CTA";
 import Illustration from "../../assets/aimee-illustration.png";
 import HeaderSocials from "./HeaderSocials";
+import Logo from "../../assets/aimee_logo.png";
 
 const Header = () => {
   return (
     <header>
+      {/* <img className="aimee_logo" src={Logo} alt="" /> */}
       <div className="container header__container vertical-center ">
         <div className="header__content">
           <h5 className="tag">&lt;header&gt;</h5>

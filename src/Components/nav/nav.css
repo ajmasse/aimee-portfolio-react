@@ -65,7 +65,7 @@ nav a.active {
   nav {
     gap: 0.25rem;
     padding: 0.2rem 1rem;
-    bottom: 1rem;
+    bottom: 2rem;
   }
   nav a span {
     display: none;

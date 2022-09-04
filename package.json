@@ -1,5 +1,6 @@
 {
-  "name": "aimee-portfolio-react",
+  "name": "aimee-portfolio",
+  "homepage": "https://aimeemasse.ca",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,13 +11,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
-    "styled-components": "^5.3.5",
+    "react-scripts": "^5.0.1",
+    "swiper": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "format:check": "prettier --check \"src/**/*.{js,jsx}\"",
     "start": "react-scripts start",

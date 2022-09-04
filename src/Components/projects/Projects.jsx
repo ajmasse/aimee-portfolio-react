@@ -4,8 +4,8 @@ import "./projects.css";
 import Proj1 from "../../assets/meeting-cost-calculator.jpg";
 import Proj2 from "../../assets/integrations.jpg";
 import Proj3 from "../../assets/case-study.jpg";
-import Proj4 from "../../assets/trivia.jpg";
-import Proj5 from "../../assets/unitia-site.jpg";
+import Proj4 from "../../assets/comparison-table.jpg";
+import Proj5 from "../../assets/trivia.jpg";
 import Proj6 from "../../assets/spothot-design.jpg";
 
 const data = [
@@ -14,53 +14,54 @@ const data = [
     image: Proj1,
     title: "Meeting Cost Calculator",
     description:
-      "A meeting cost calculator tool for users to understand how much money they are spending daily, weekly, annually. *Owned by Fellow* ",
+      "A meeting cost calculator tool for users to understand how much money they are spending daily, weekly, annually. *Owned by Fellow*",
     view: "https://fellow.app/tools/meeting-cost-calculator/",
-    more: "",
+    // more: "",
   },
   {
     id: 2,
     image: Proj2,
     title: "Integrations Page",
     description:
-      "A custom coded WordPress archive and taxonomy page used to display the integrations all included with Fellow. *Owned by Fellow* ",
+      "A custom coded WordPress archive and taxonomy page used to display the integrations all included with Fellow. *Owned by Fellow*",
     view: "https://fellow.app/integrations/",
-    more: "",
+    // more: "",
   },
   {
     id: 3,
     image: Proj3,
     title: "Case Study Page",
     description:
-      "A custom coded WordPress archive and taxonomy page used to display Fellow's customer case studies. *Owned by Fellow* ",
-    view: "https://fellow.app/integrations/",
-    more: "",
+      "A custom coded WordPress archive and taxonomy page used to display Fellow's customer case studies. *Owned by Fellow*",
+    view: "https://fellow.app/customers/",
+    // more: "",
   },
   {
     id: 4,
     image: Proj4,
-    title: "Trivia",
-    description: "A trivia web app coded utilizing JavaScript, HTML, and CSS. ",
-    view: "http://trivia.aimeemasse.ca/triviagame.html",
-    more: "",
+    title: "Comparison Table Block",
+    description:
+      "A Gutenberg block created for reusability through comparison pages. Developed utilizing JavaScript, React, and Sass. *Owned by Fellow*",
+    view: "https://fellow.app/compare/fellow-vs-google-docs/",
+    // more: "",
   },
   {
-    id: 5,
+    id: 4,
     image: Proj5,
-    title: "Unitia Site",
+    title: "Trivia",
     description:
-      "Unitia is a volunteer abroad agency site. A landing page coded utilizing Bootstrap, HTML, and CSS.  ",
-    view: "http://unitia.aimeemasse.ca/",
-    more: "",
+      "A trivia web application coded utilizing JavaScript, HTML, and CSS.",
+    view: "http://trivia.aimeemasse.ca/triviagame.html",
+    // more: "",
   },
   {
     id: 6,
     image: Proj6,
     title: "Spothot Site Design",
     description:
-      "The Figma design for Spothot's marketing site - No live preview as company has since shut down",
-    view: "",
-    more: "",
+      "The Figma design for Spothot's marketing site - No live preview as company has since shut down.",
+    view: "https://www.figma.com/file/E3IfOZQrwxiCinMOFMyNTN/Spothot?node-id=0%3A1",
+    // more: "",
   },
 ];
 
@@ -85,11 +86,11 @@ export const Projects = () => {
               <h3>{title}</h3>
               <h4>{description}</h4>
               <div className="project__item-cta">
-                <a href={view} className="btn">
+                {/* <a href={view} className="btn">
                   Preview
-                </a>
-                <a href={more} className="btn btn-primary">
-                  Learn More
+                </a> */}
+                <a href={view} className="btn btn-primary">
+                  Preview
                 </a>
               </div>
             </article>
