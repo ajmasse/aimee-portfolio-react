@@ -36,4 +36,8 @@ footer a {
   .footer__permalinks {
     gap: 1rem;
   }
+  .footer__copyright {
+    margin-bottom: 6rem;
+    color: var(--color-bg);
+  }
 }

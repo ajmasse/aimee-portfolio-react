@@ -141,7 +141,7 @@ small {
   }
 
   .about__content p {
-    margin: 2rem 0 1.5rem;
+    margin: 2rem 0 3.5rem;
     font-size: 1rem;
   }
 }
@@ -149,7 +149,7 @@ small {
 /* ================ MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
   #about {
-    height: 207vh;
+    height: fit-content;
   }
 
   .about__me {
