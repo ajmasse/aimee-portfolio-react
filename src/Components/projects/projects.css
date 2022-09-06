@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-.project__item > h3 {
+.project__item h3 {
   margin: 1.25rem 0 0.5rem;
 }
 

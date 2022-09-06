@@ -206,4 +206,7 @@ img {
   h5 {
     font-size: 0.9rem;
   }
+  .indent {
+    margin-left: 0;
+  }
 }

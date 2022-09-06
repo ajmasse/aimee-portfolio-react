@@ -42,13 +42,13 @@ const About = () => {
           </div>
 
           <p className="about__text">
-            Hi, My name is Aimée and I currently reside in Regina, Saskatchewan.
+            Hi, my name is Aimée and I currently reside in Regina, Saskatchewan.
             I graduated from BCIT's New Media Design and Web Development diploma
             program August, 2021. When I am not coding or designing, you can
             find me at the gym working out, travelling, singing, or playing
             video games.
-            <br />
-            <br />
+          </p>
+          <p className="about__text">
             Within the last year, I have learned so much working at Fellow.
             Throughout my time with the company, I utilized PHP, JavaScript,
             SASS, HTML, TypeScript, WordPress, and React daily. In my
@@ -58,11 +58,11 @@ const About = () => {
             communication and organization skills greatly improved. It allowed
             me to build a solid foundation for my development process and
             enhanced my problem-solving skills.
-            <br />
-            <br />I specialize in creating new websites and remediating existing
-            ones. Using WordPress, HTML5, CSS3, JavaScript, PHP, and other web
-            technologies such as React, I create positive and engaging
-            experiences for users.
+          </p>
+          <p className="about__text">
+            I am currently looking for my next role and am open to any
+            opportunities in front end! I look forward to my next new adventure,
+            and can't wait to continue improving every day.
           </p>
         </div>
       </div>

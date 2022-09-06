@@ -80,19 +80,26 @@ export const Projects = () => {
         {data.map(({ id, image, title, description, view, more }) => {
           return (
             <article className="project__item">
-              <div className="project__item-image">
-                <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <h4>{description}</h4>
-              <div className="project__item-cta">
-                {/* <a href={view} className="btn">
+              <a href={view} target="_blank" rel="noreferrer">
+                <div className="project__item-image">
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <h4>{description}</h4>
+                <div className="project__item-cta">
+                  {/* <a href={view} className="btn">
                   Preview
                 </a> */}
-                <a href={view} className="btn btn-primary">
-                  Preview
-                </a>
-              </div>
+                  <a
+                    href={view}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-primary"
+                  >
+                    Preview
+                  </a>
+                </div>
+              </a>
             </article>
           );
         })}
