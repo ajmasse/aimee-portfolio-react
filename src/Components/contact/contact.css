@@ -70,6 +70,8 @@ textarea {
   border: 1px solid var(--color-primary);
   resize: none;
   color: var(--color-white);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
@@ -90,5 +92,10 @@ textarea {
   }
   .contact__header {
     margin: 5rem 0 2rem;
+  }
+
+  input,
+  textarea {
+    font-size: 0.8rem;
   }
 }

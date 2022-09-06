@@ -8,7 +8,7 @@ import Logo from "../../assets/aimee_logo.png";
 const Header = () => {
   return (
     <header>
-      {/* <img className="aimee_logo" src={Logo} alt="" /> */}
+      <img className="aimee_logo" src={Logo} alt="" />
       <div className="container header__container vertical-center ">
         <div className="header__content">
           <h5 className="tag">&lt;header&gt;</h5>

@@ -25,7 +25,7 @@ export const Contact = () => {
         <h5>Get in Touch</h5>
         <h2>
           {" "}
-          <span className="tag">&lt;h2&gt;</span>Contact Me{" "}
+          <span className="tag">&lt;h2&gt;</span> Contact Me{" "}
           <span className="tag">&lt;/h2&gt;</span>
         </h2>
       </div>
